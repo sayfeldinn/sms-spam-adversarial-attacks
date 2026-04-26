@@ -1,0 +1,7 @@
+Step,Accuracy,Precision,Recall,F1-Score
+Baseline (no attack),0.9821,0.9388,0.9262,0.9324
+After Attack 1 (Homoglyph),0.9758,0.9122,0.906,0.9091
+After Attack 2 (Word Inject),0.9803,0.9635,0.8859,0.9231
+"After Defense 1 (Char Norm, vs Atk1)",0.9821,0.9388,0.9262,0.9324
+"After Defense 2 (Adv Train, vs Atk1)",0.9865,0.9589,0.9396,0.9492
+"After Defense 2 (Adv Train, vs Atk2)",0.9857,0.9784,0.9128,0.9444
