@@ -1,7 +1,7 @@
 Step,Accuracy,Precision,Recall,F1-Score
-Baseline,0.9821,0.9388,0.9262,0.9324
-After Attack 1 (Homoglyph),0.8619,0.4419,0.1275,0.1979
-After Attack 2 (Keyword Del),0.9345,1.0,0.5101,0.6756
-Defense 1 — Char Norm (vs Atk1),0.9821,0.9388,0.9262,0.9324
-Defense 2 — Adv Train (vs Atk1),0.9848,0.9521,0.9329,0.9424
-Defense 2 — Adv Train (vs Atk2),0.9695,0.9675,0.7987,0.875
+Baseline,0.9857,0.965,0.9262,0.9452
+After Attack 1 (Homoglyph),0.9318,0.9398,0.5235,0.6724
+After Attack 2 (Keyword Del),0.9453,0.949,0.6242,0.753
+Defense 1 — Char Norm (vs Atk1),0.9552,0.9901,0.6711,0.8
+Defense 2 — Adv Train (vs Atk1),0.9803,0.9847,0.8658,0.9214
+Defense 2 — Adv Train (vs Atk2),0.9749,0.984,0.8255,0.8978
